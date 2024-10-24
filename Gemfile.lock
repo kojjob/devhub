@@ -109,7 +109,12 @@ GEM
     erubi (1.13.0)
     et-orbi (1.2.11)
       tzinfo
+    ffi (1.17.0-aarch64-linux-gnu)
+    ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86-linux-gnu)
+    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     fugit (1.11.1)
       et-orbi (~> 1, >= 1.2.11)
       raabro (~> 1.4)
@@ -191,7 +196,7 @@ GEM
     parser (3.3.5.0)
       ast (~> 2.4.1)
       racc
-    pg (1.5.8)
+    pg (1.5.9)
     propshaft (1.1.0)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -372,7 +377,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kamal (>= 2.0.0.rc2)
-  pg (~> 1.1)
+  pg (~> 1.5)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.0.beta1)
